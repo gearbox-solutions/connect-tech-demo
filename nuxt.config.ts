@@ -2,5 +2,8 @@
 export default defineNuxtConfig({
   css: ["~/assets/app.css"],
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss"],
+  image: {
+    dir: "assets/images/",
+  },
+  modules: ["@nuxtjs/tailwindcss", "@nuxt/image"],
 });
