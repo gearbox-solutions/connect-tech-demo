@@ -21,9 +21,9 @@
                     class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
                   >
                     Anim aute id magna aliqua ad ad non deserunt sunt.
-                    <a href="#" class="whitespace-nowrap font-semibold text-blue-600"
+                    <NuxtLink href="#" class="whitespace-nowrap font-semibold text-blue-600"
                       ><span class="absolute inset-0" aria-hidden="true" />Read more
-                      <span aria-hidden="true">&rarr;</span></a
+                      <span aria-hidden="true">&rarr;</span></NuxtLink
                     >
                   </div>
                 </div>
@@ -35,13 +35,13 @@
                   amet fugiat veniam occaecat fugiat aliqua.
                 </p>
                 <div class="mt-10 flex items-center gap-x-6">
-                  <a
+                  <NuxtLink
                     href="#"
                     class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
-                    >Get started</a
+                    >Get started</NuxtLink
                   >
-                  <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
-                    >Learn more <span aria-hidden="true">→</span></a
+                  <NuxtLink href="#" class="text-sm font-semibold leading-6 text-gray-900"
+                    >Learn more <span aria-hidden="true">→</span></NuxtLink
                   >
                 </div>
               </div>
@@ -83,8 +83,8 @@
               <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
                 <p class="flex-auto">{{ feature.description }}</p>
                 <p class="mt-6">
-                  <a :href="feature.href" class="text-sm font-semibold leading-6 text-blue-600"
-                    >Learn more <span aria-hidden="true">→</span></a
+                  <NuxtLink :href="feature.href" class="text-sm font-semibold leading-6 text-blue-600"
+                    >Learn more <span aria-hidden="true">→</span></NuxtLink
                   >
                 </p>
               </dd>

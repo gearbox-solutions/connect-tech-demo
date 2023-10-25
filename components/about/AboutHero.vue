@@ -79,8 +79,8 @@ const links = [];
         <div
           class="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-semibold leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10"
         >
-          <a v-for="link in links" :key="link.name" :href="link.href"
-            >{{ link.name }} <span aria-hidden="true">&rarr;</span></a
+          <NuxtLink v-for="link in links" :key="link.name" :href="link.href"
+            >{{ link.name }} <span aria-hidden="true">&rarr;</span></NuxtLink
           >
         </div>
         <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">

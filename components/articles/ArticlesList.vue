@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { onMounted, ref } from "vue";
+import { ref } from "vue";
 import { useFetch, useRuntimeConfig } from "#imports";
 import ArticleCard from "~/components/articles/ArticleCard.vue";
 
@@ -18,8 +18,6 @@ const { data: articlesRequest } = await useFetch<ArticlesRequest>(endpoint, {
 });
 
 const articles = ref(articlesRequest.value?.data);
-
-onMounted(() => {});
 </script>
 
 <template>
