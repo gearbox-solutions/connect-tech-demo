@@ -3,7 +3,7 @@
 <template>
   <div class="">
     <NavBar />
-    <div class="mx-auto mt-20 max-w-7xl">
+    <div class="mt-20">
       <slot />
     </div>
   </div>
