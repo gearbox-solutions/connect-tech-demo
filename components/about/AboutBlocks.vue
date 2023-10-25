@@ -34,12 +34,12 @@
           </div>
         </div>
         <div
-          class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-indigo-600 p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28"
+          class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-blue-600 p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28"
         >
           <p class="flex-none text-3xl font-bold tracking-tight text-white">401,093</p>
           <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
             <p class="text-lg font-semibold tracking-tight text-white">Transactions this year</p>
-            <p class="mt-2 text-base leading-7 text-indigo-200">
+            <p class="mt-2 text-base leading-7 text-blue-200">
               Eu duis porta aliquam ornare. Elementum eget magna egestas. Eu duis porta aliquam ornare.
             </p>
           </div>

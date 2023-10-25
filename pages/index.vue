@@ -21,7 +21,7 @@
                     class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
                   >
                     Anim aute id magna aliqua ad ad non deserunt sunt.
-                    <a href="#" class="whitespace-nowrap font-semibold text-indigo-600"
+                    <a href="#" class="whitespace-nowrap font-semibold text-blue-600"
                       ><span class="absolute inset-0" aria-hidden="true" />Read more
                       <span aria-hidden="true">&rarr;</span></a
                     >
@@ -37,7 +37,7 @@
                 <div class="mt-10 flex items-center gap-x-6">
                   <a
                     href="#"
-                    class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    class="rounded-md bg-blue-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
                     >Get started</a
                   >
                   <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
@@ -49,9 +49,12 @@
           </div>
         </div>
         <div class="bg-gray-50 lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-          <img
+          <NuxtImg
             class="aspect-[3/2] object-cover lg:aspect-auto lg:h-full lg:w-full"
-            src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80"
+            src="home/table-meeting.jpg"
+            width="900"
+            format="webp"
+            sizes="900px"
             alt=""
           />
         </div>
@@ -61,7 +64,7 @@
     <div class="bg-white py-24 sm:py-32">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-2xl lg:text-center">
-          <h2 class="text-base font-semibold leading-7 text-indigo-600">Deploy faster</h2>
+          <h2 class="text-base font-semibold leading-7 text-blue-600">Deploy faster</h2>
           <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Everything you need to deploy your app
           </p>
@@ -74,13 +77,13 @@
           <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
             <div v-for="feature in features" :key="feature.name" class="flex flex-col">
               <dt class="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900">
-                <component :is="feature.icon" class="h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                <component :is="feature.icon" class="h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                 {{ feature.name }}
               </dt>
               <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
                 <p class="flex-auto">{{ feature.description }}</p>
                 <p class="mt-6">
-                  <a :href="feature.href" class="text-sm font-semibold leading-6 text-indigo-600"
+                  <a :href="feature.href" class="text-sm font-semibold leading-6 text-blue-600"
                     >Learn more <span aria-hidden="true">→</span></a
                   >
                 </p>
