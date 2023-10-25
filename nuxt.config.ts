@@ -6,4 +6,11 @@ export default defineNuxtConfig({
     dir: "assets/images/",
   },
   modules: ["@nuxtjs/tailwindcss", "@nuxt/image"],
+  runtimeConfig: {
+    // Config within public will be also exposed to the client
+    public: {
+      statamicApi: process.env.STATAMIC_API,
+      statamicHost: process.env.STATAMIC_HOST,
+    },
+  },
 });

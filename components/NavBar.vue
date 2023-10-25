@@ -6,6 +6,7 @@ import { Dialog, DialogPanel } from "@headlessui/vue";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
+  { name: "Blog", href: "/blog" },
 ];
 
 const mobileMenuOpen = ref(false);
