@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div>
+  <div class="mx-auto max-w-5xl">
     <NavBar />
     <div>
       <slot />
