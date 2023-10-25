@@ -1,9 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="mx-auto max-w-5xl">
+  <div class="">
     <NavBar />
-    <div>
+    <div class="mx-auto mt-20 max-w-7xl">
       <slot />
     </div>
   </div>
