@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     public: {
       statamicApi: process.env.STATAMIC_API,
       statamicHost: process.env.STATAMIC_HOST,
+      staticFormsKey: process.env.STATICFORMS_KEY,
     },
   },
 });
